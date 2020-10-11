@@ -115,25 +115,29 @@ body {
     background-color: var(--orange-500);
 }
 
-.operators{
-    background: var(--gray-100);
+[data-type="operators"] {
+    background: var(--gray-200);
     border-width: 0.5px;
     border-color: var(--gray-300);
 }
-.operators:hover,
-.operators:focus,
-.operators:active{
-    background-color: var(--gray-200);
+[data-type="operators"]:hover,
+[data-type="operators"]:focus,
+[data-type="operators"]:active{
+    background: var(--gray-300);
 }
 
-.number {
+[data-type="number"] {
     background: white;
     border-width: 0.5px;
     border-color: var(--gray-300);
 }
-.number:hover,
-.number:focus,
-.number:active{
-    background-color: var(--gray-200);
+[data-type="number"]:hover,
+[data-type="number"]:focus,
+[data-type="number"]:active{
+    background: var(--gray-300);
+}
+
+[data-state="selected"] {
+  background: var(--gray-400);
 }
 
