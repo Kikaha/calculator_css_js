@@ -126,14 +126,25 @@ body {
     background: var(--gray-300);
 }
 
-[data-type="number"] {
+[data-type="number"]{
     background: white;
     border-width: 0.5px;
     border-color: var(--gray-300);
 }
+
 [data-type="number"]:hover,
 [data-type="number"]:focus,
 [data-type="number"]:active{
+    background: var(--gray-300);
+}
+
+[data-type="claer"]{
+    background: white;
+}
+
+[data-type="claer"]:hover,
+[data-type="claer"]:focus,
+[data-type="claer"]:active{
     background: var(--gray-300);
 }
 
